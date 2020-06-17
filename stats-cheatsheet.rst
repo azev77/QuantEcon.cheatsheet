@@ -1,6 +1,5 @@
 .. raw:: html
 
-	<style type="text/css">.menu>li.statistics-on>a {border-color:#444;cursor: default;}</style>
 
 Statistics cheatsheet
 =====================
