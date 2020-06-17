@@ -4,7 +4,7 @@
 Statistics cheatsheet
 =====================
 
-Plotting
+Probability
 --------
 
 .. container:: multilang-table
