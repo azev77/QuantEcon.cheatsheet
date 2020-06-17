@@ -49,7 +49,7 @@ Inverse Probabilities (quantiles)
     +==============+=======================+=======================+===============================+=====================+
     |              | .. code-block:: julia | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   N(0,1)     |                       |                       |                               |                     |
-    |              |    cdf(Normal(0,1),x) |    norminv(p)         |    qnorm(x)                   |    invnormal(x)     |
+    |              |quantile(Normal(0,1),x)|    norminv(p)         |    qnorm(x)                   |    invnormal(x)     |
     |              |                       |                       |                               |                     |
     +--------------+-----------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
