@@ -13,8 +13,7 @@ Probability
     |              |         Julia         |         STATA         |             Pandas            |        Base R       |
     +==============+=======================+=======================+===============================+=====================+
     |              | .. code-block:: julia | .. code-block:: stata | .. code-block:: python        | .. code-block:: r   |
-    | Scatter plot |                       |                       |                               |                     |
-    |              |     plot x y          |     plot x y          |     df.plot.scatter('x', 'y') |   plot(df$x, df$y)  |
+    |    N(0,1)    | cdf(Normal(μ,σ),x)    |     plot x y          |     df.plot.scatter('x', 'y') |   plot(df$x, df$y)  |
     |              |                       |                       |                               |                     |
     |              |                       |                       |                               |                     |
     |              |                       |                       |                               |                     |
