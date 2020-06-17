@@ -1,7 +1,7 @@
 .. raw:: html
 
 
-Statistics cheatsheet
+Distributions cheatsheet
 =====================
 
 Probability
@@ -10,7 +10,7 @@ Probability
 .. container:: multilang-table
 
     +--------------+-----------------------+-------------------------------+---------------------+
-    |  Operation   |         STATA         |             Pandas            |        Base R       |
+    |              |         STATA         |             Pandas            |        Base R       |
     +==============+=======================+===============================+=====================+
     |              | .. code-block:: stata | .. code-block:: python        | .. code-block:: r   |
     | Scatter plot |                       |                               |                     |
