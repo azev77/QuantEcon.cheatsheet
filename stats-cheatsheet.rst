@@ -12,7 +12,7 @@ Probability
     +--------------+-----------------------+-----------------------+-------------------------------+---------------------+
     |              |         Julia         |         MATLAB        |             Base R            |        STATA        |
     +==============+=======================+=======================+===============================+=====================+
-    |              | .. code-block:: julia | .. code-block:: stata | .. code-block:: python        | .. code-block:: r   |
+    |              | .. code-block:: julia | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   N(0,1)     |                       |                       |                               |                     |
     |              |    cdf(Normal(0,1),x) |    normcdf(x)         |    pnorm(x)                   |    normal(x)        |
     |              |                       |                       |                               |                     |
