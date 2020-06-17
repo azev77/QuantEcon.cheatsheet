@@ -10,7 +10,7 @@ Probability
 .. container:: multilang-table
 
     +--------------+-----------------------+-------------------------------+---------------------+
-    |              |         STATA         |             Pandas            |        Base R       |
+    |              |         STATA         |         STATA         |             Pandas            |        Base R       |
     +==============+=======================+===============================+=====================+
     |              | .. code-block:: stata | .. code-block:: python        | .. code-block:: r   |
     | Scatter plot |                       |                               |                     |
