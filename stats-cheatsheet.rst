@@ -54,17 +54,17 @@ Inverse Probabilities (quantiles)
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   χ²(r)      |                            |                       |                               |                     |
-    |              |    cdf(Chisq(r),x)         |    chi2cdf(x,r)       |    pchisq(x,r)                |    chi2(r,x)        |
+    |              |    quantile(Chisq(r),x)    |    chi2cdf(x,r)       |    pchisq(x,r)                |    chi2(r,x)        |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   t(r)       |                            |                       |                               |                     |
-    |              |    cdf(TDist(r),x)         |    tcdf(x,r)          |    pt(x,r)                    |    1-ttail(r,x)     |
+    |              |    quantile(TDist(r),x)    |    tcdf(x,r)          |    pt(x,r)                    |    1-ttail(r,x)     |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   F(r,k)     |                            |                       |                               |                     |
-    |              |    cdf(FDist(r,k),x)       |    fcdf(x,r,k)        |    pf(x,r,k)                  |    F(r,k,x)         |
+    |              |    quantile(FDist(r,k),x)  |    fcdf(x,r,k)        |    pf(x,r,k)                  |    F(r,k,x)         |
     |              |                            |                       |                               |                     |   
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+
     
