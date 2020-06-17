@@ -12,16 +12,10 @@ Probability
     +--------------+-----------------------+-----------------------+-------------------------------+---------------------+
     |              |         Julia         |         MATLAB        |             Base R            |        STATA        |
     +==============+=======================+=======================+===============================+=====================+
-    |              | .. code-block:: julia | .. code-block:: matlab| .. code-block:: r        | .. code-block:: stata   |
-    |    N(0,1)    |                       |                       |                               |                     |
-    |              |    cdf(Normal(0,1),x) |    normcdf(x)         |    pnorm(x)                   |    normal(x)        |
-    |              |                       |                       |                               |                     |
-    |              |                       |                       |                               |                     |
-    |              |                       |                       |                               |                     |
     +--------------+-----------------------+-----------------------+-------------------------------+---------------------+
     |              | .. code-block:: julia | .. code-block:: stata | .. code-block:: python        | .. code-block:: r   |
-    | Scatter plot |                       |                       |                               |                     |
-    |              |     plot x y          |     plot x y          |     df.plot.scatter('x', 'y') |   plot(df$x, df$y)  |
+    |   N(0,1)     |                       |                       |                               |                     |
+    |              |    cdf(Normal(0,1),x) |    normcdf(x)         |    pnorm(x)                   |    normal(x)        |
     |              |                       |                       |                               |                     |
     |              |                       |                       |                               |                     |
     |              |                       |                       |                               |                     |
