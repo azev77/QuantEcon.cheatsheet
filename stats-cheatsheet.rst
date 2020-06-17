@@ -77,4 +77,13 @@ Inverse Probabilities (quantiles)
     
 General syntax:
 --------
-In Julia, for a general distribution `D(θ)` properties are computed: Property(D(θ),x)
+In Julia, for a general distribution `D(θ)` properties are computed: 
+
+property(D(θ),x)
+
+
+vstats = [mean, std, entropy]
+vdist  = [Normal(0,1), BetaBinomial(10,0.1,0.1), Truncated(Normal(0,1),0,1)]
+[f(D) for f ∈ vstats, D ∈ vdist]
+
+
