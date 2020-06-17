@@ -10,11 +10,11 @@ Probability
 .. container:: multilang-table
 
     +--------------+-----------------------+-----------------------+-------------------------------+---------------------+
-    |              |         Julia         |         STATA         |             Pandas            |        Base R       |
+    |              |         Julia         |         MATLAB        |             Base R            |        STATA        |
     +==============+=======================+=======================+===============================+=====================+
-    |              | .. code-block:: julia | .. code-block:: stata | .. code-block:: python        | .. code-block:: r   |
-    | N(0,1)       |                       |                       |                               |                     |
-    |              | cdf(Normal(0,1),x)    | normcdf(x)            | pnorm(x)                      | normal(x)           |
+    |              | .. code-block:: julia | .. code-block:: matlab| .. code-block:: r        | .. code-block:: stata   |
+    |    N(0,1)    |                       |                       |                               |                     |
+    |              |    cdf(Normal(0,1),x) |    normcdf(x)         |    pnorm(x)                   |    normal(x)        |
     |              |                       |                       |                               |                     |
     |              |                       |                       |                               |                     |
     |              |                       |                       |                               |                     |
