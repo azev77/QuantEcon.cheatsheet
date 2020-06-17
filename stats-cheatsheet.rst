@@ -75,11 +75,16 @@ Inverse Probabilities (quantiles)
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     
-General syntax:
+General syntax in Julia:
 --------
-In Julia, for a general distribution `D(θ)` properties are computed: 
+    +--------------+----------------------------+-----------------------+---------------------------+-----------------------+
+    |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: julia     | .. code-block:: julia |
+    |   D(θ)       |                            |                       |                           |                       |
+    |              |    property(D(θ),x)        |    cdf(D(θ),x)        |    quantile(D(θ),p)       |    mean(D(θ))         |
+    |              |                            |                       |                           |                       |
+    +--------------+----------------------------+-----------------------+---------------------------+-----------------------+   
 
-property(D(θ),x)
+| property(D(θ),x) | property(D(θ),x)| property(D(θ),x) | 
 
 
 vstats = [mean, std, entropy]
