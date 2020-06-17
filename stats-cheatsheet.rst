@@ -74,4 +74,6 @@ Inverse Probabilities (quantiles)
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     
-In Julia, for a general distribution `D(θ)` properties are computed: `Property(D(θ),x)`  
+General syntax:
+--------
+In Julia, for a general distribution `D(θ)` properties are computed: Property(D(θ),x)
