@@ -83,12 +83,3 @@ General syntax in Julia:
     |              |    property(D(θ),x)        |    cdf(D(θ),x)        |    quantile(D(θ),p)       |    mean(D(θ))         |
     |              |                            |                       |                           |                       |
     +--------------+----------------------------+-----------------------+---------------------------+-----------------------+   
-
-| property(D(θ),x) | property(D(θ),x)| property(D(θ),x) | 
-
-
-vstats = [mean, std, entropy]
-vdist  = [Normal(0,1), BetaBinomial(10,0.1,0.1), Truncated(Normal(0,1),0,1)]
-[f(D) for f ∈ vstats, D ∈ vdist]
-
-
