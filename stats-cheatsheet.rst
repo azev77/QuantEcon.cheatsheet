@@ -5,8 +5,6 @@
 Statistics cheatsheet
 =====================
 
-In the Python code :code:`import pandas as pd` has been run
-
 
 Basics
 -------
