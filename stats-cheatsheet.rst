@@ -3,6 +3,7 @@
 
 Distributions cheatsheet
 =====================
+This note is inspired by the tables on page 114 of Bruce Hansen's Book:(https://www.ssc.wisc.edu/~bhansen/probability/Probability.pdf). 
 
 CDF  
 --------
