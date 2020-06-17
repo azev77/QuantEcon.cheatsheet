@@ -49,22 +49,22 @@ Inverse Probabilities (quantiles)
     +==============+============================+=======================+===============================+=====================+
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   N(0,1)     |                            |                       |                               |                     |
-    |              |    quantile(Normal(0,1),x) |    norminv(p)         |    qnorm(x)                   |    invnormal(x)     |
+    |              |    quantile(Normal(0,1),x) |    norminv(p)         |    qnorm(p)                   |    invnormal(p)     |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   χ²(r)      |                            |                       |                               |                     |
-    |              |    quantile(Chisq(r),x)    |    chi2cdf(x,r)       |    pchisq(x,r)                |    chi2(r,x)        |
+    |              |    quantile(Chisq(r),x)    |    chi2inv(x,r)       |    qchisq(p,r)                |    invchi2(r,p)     |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   t(r)       |                            |                       |                               |                     |
-    |              |    quantile(TDist(r),x)    |    tcdf(x,r)          |    pt(x,r)                    |    1-ttail(r,x)     |
+    |              |    quantile(TDist(r),x)    |    tinv(x,r)          |    qt(p,r)                    |    invttail(r,1*p)  |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   F(r,k)     |                            |                       |                               |                     |
-    |              |    quantile(FDist(r,k),x)  |    fcdf(x,r,k)        |    pf(x,r,k)                  |    F(r,k,x)         |
+    |              |    quantile(FDist(r,k),x)  |    finv(x,r,k)        |    qf(p,r,k)                  |    invF(r,k,p)      |
     |              |                            |                       |                               |                     |   
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+
     
