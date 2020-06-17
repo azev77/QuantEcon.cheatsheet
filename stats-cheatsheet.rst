@@ -59,7 +59,7 @@ Inverse Probabilities (quantiles)
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   t(r)       |                            |                       |                               |                     |
-    |              |    quantile(TDist(r),x)    |    tinv(x,r)          |    qt(p,r)                    |    invttail(r,1*p)  |
+    |              |    quantile(TDist(r),x)    |    tinv(x,r)          |    qt(p,r)                    |    invttail(r,1-p)  |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
