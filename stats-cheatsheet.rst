@@ -49,22 +49,29 @@ Inverse Probabilities (quantiles)
     +==============+============================+=======================+===============================+=====================+
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   N(0,1)     |                            |                       |                               |                     |
-    |              |    quantile(Normal(0,1),x) |    norminv(p)         |    qnorm(p)                   |    invnormal(p)     |
+    |              |    quantile(Normal(0,1),p) |    norminv(p)         |    qnorm(p)                   |    invnormal(p)     |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   χ²(r)      |                            |                       |                               |                     |
-    |              |    quantile(Chisq(r),x)    |    chi2inv(x,r)       |    qchisq(p,r)                |    invchi2(r,p)     |
+    |              |    quantile(Chisq(r),p)    |    chi2inv(x,r)       |    qchisq(p,r)                |    invchi2(r,p)     |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   t(r)       |                            |                       |                               |                     |
-    |              |    quantile(TDist(r),x)    |    tinv(x,r)          |    qt(p,r)                    |    invttail(r,1-p)  |
+    |              |    quantile(TDist(r),p)    |    tinv(x,r)          |    qt(p,r)                    |    invttail(r,1-p)  |
     |              |                            |                       |                               |                     |
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
     |   F(r,k)     |                            |                       |                               |                     |
-    |              |    quantile(FDist(r,k),x)  |    finv(x,r,k)        |    qf(p,r,k)                  |    invF(r,k,p)      |
+    |              |    quantile(FDist(r,k),p)  |    finv(x,r,k)        |    qf(p,r,k)                  |    invF(r,k,p)      |
     |              |                            |                       |                               |                     |   
     +--------------+----------------------------+-----------------------+-------------------------------+---------------------+
+    +--------------+----------------------------+-----------------------+-------------------------------+---------------------+
+    |              | .. code-block:: julia      | .. code-block:: julia | .. code-block:: python        | .. code-block:: r   |
+    |   D(θ)       |                            |                       |                               |                     |
+    |              |    quantile(D(θ),p)        |    Dinv(p,θ)          |    qD(p,θ)                    |    invD(p,θ)        |
+    |              |                            |                       |                               |                     |
+    +--------------+----------------------------+-----------------------+-------------------------------+---------------------+   
     
+In Julia, for a general distribution `D(θ)` properties are computed: `Property(D(θ),x)`  
